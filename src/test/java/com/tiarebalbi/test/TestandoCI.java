@@ -8,7 +8,8 @@ public class TestandoCI {
 
 	@Test
 	public void deveTestarCIComAmbienteDeDesenvolvimento() {
-		assertEquals("aa", "aa");
+		Double dados = new Double(2);
+		assertEquals(dados, new Double(2));
 	}
 
 }
