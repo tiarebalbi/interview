@@ -19,5 +19,9 @@ public class TestandoCI {
 		Assert.assertNotEquals(dados, new Double(2));
 	}
 
-
+	@Test
+	public void deveGerarException() {
+		Double dados = new Double(4);
+		Assert.assertNotEquals(dados, new Double(2));
+	}
 }
